@@ -141,7 +141,7 @@ def fill_canvas():
         b[j] = tk.Label(w.Custom1, text=COLORS[j], height=1, width=17)
         b[j].configure(font="-family {DejaVu Sans} -size 8")
         b[j].configure(background=COLORS[j])
-        ToolTip(b[j], 'DejaVuSans', COLORS[j])
+        # ToolTip(b[j], 'DejaVuSans', COLORS[j])
         if COLORS[j] in TOODARK:
             b[j].configure(foreground=COLORS[0])
         b[j].grid(row=row, column=col)
